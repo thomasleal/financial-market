@@ -1,0 +1,28 @@
+<div class="container mt-5">
+  <div class="options">
+    <h2 id="legendTitle"><strong>Petroleo Brasileiro SA PN (PETR4)</strong></h2>
+    <div class="d-flex align-items-center mb-2">
+      <img
+        src="assets/images/flag-br.png"
+        width="15px"
+        height="12px"
+        alt="Brazilian flag"
+      />
+      <span class="mx-2">BM&FBovespa</span>
+    </div>
+  </div>
+  <igx-financial-chart
+    height="100%"
+    width="100%"
+    [dataSource]="data"
+    chartType="line"
+    thickness="2"
+    zoomSliderType="None"
+    yAxisTitleLeftMargin="10"
+    yAxisTitleRightMargin="5"
+    yAxisLabelLeftMargin="0"
+    yAxisMode="Numeric"
+    yAxisTitle="Valor"
+  >
+  </igx-financial-chart>
+</div>

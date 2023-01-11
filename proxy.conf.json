@@ -1,0 +1,10 @@
+{
+  "/v8/finance/chart/PETR4.SA": {
+    "target": "https://query2.finance.yahoo.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
